@@ -1,4 +1,5 @@
 import { gql, useQuery } from "@apollo/client";
+
 import { NewUserForm } from "./components/NewUserForm";
 
 type User = {
@@ -6,7 +7,8 @@ type User = {
   name: string;
 }
 
-const GET_USER = gql`
+// eslint-disable-next-line react-refresh/only-export-components
+export const GET_USER = gql`
   query {
     users {
       id
