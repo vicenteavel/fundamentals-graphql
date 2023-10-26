@@ -1,4 +1,4 @@
-# Front-end for GraphQL Fundamentals
+# Back-end for GraphQL Fundamentals
 
 ## To install and run
 
